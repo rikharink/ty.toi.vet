@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "file-saver": "./file-saver.js",
+    "html-to-image": "./html-to-image.js"
+  }
+}
