@@ -1,0 +1,19 @@
+{
+  "name": "bedankt.toi.vet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rik Harink",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.8.5"
+  }
+}
