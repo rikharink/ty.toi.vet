@@ -37,8 +37,13 @@ img {
   margin: 16px;
 }
 
+#billboard-image image {
+  align-self: center;
+}
+
 #billboard-image {
-  background-image: url("./stonks.png");
+  display: flex;
+  overflow: hidden;
   background-color: #f8e800;
   width: 900px;
   height: 900px;

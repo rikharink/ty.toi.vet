@@ -4,7 +4,7 @@ import { saveAs } from "./_snowpack/pkg/file-saver.js";
 
 export function setupTy() {
   const textElement = document.getElementById("billboard-text");
-  const imageElement = document.getElementById("billboard-image");
+  const imageElement = document.getElementById("billboard-image-image");
 
   const textFormElement = document.getElementById("text");
   const imageFormElement = document.getElementById("image");
@@ -29,7 +29,7 @@ export function setupTy() {
 
   function setBillboardContent(text, image) {
     textElement.childNodes[0].innerText = text;
-    imageElement.style.backgroundImage = `url(${image})`;
+    imageElement.src = image;
     console.debug("SETTING IMAGE", image);
 
     const params = new URLSearchParams(window.location.search);
